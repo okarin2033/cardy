@@ -1,0 +1,126 @@
+:root {
+  --bg-color: #ffffff;
+  --text-color: #333333;
+  --nav-bg: #343a40;
+  --nav-text: #ffffff;
+  --card-bg: #ffffff;
+  --container-bg: #f8f9fa;
+  --button-bg: #487eb0;
+  --button-text: #ffffff;
+  --input-bg: var(--bg-color);
+  --input-text: #333333;
+  --input-border: #487eb0;
+  --bg-secondary: #f8f9fa;
+  --bg-tertiary: #e9ecef;
+  --bg-hover: #f1f3f5;
+  --text-primary: #333333;
+  --text-secondary: #6c757d;
+  --warning-text: #fbbf24;
+  --success-text: #34d399;
+  --button-primary: #4299e1;
+  --button-primary-hover: #3182ce;
+  --primary-hover: #3182ce;
+  --button-secondary: #6c757d;
+  --button-secondary-hover: #5a6268;
+  --button-danger: #e53e3e;
+  --button-danger-hover: #c53030;
+  --button-action: #48bb78;
+  --button-action-hover: #38a169;
+  --button-disabled: #e9ecef;
+  --deck-nav-bg: #343a40;
+  --deck-nav-button: #487eb0;
+  --deck-nav-button-hover: #3182ce;
+  --search-bg: #ffffff;
+  --card-border: #dee2e6;
+  --success-color: #4caf50;
+  --warning-color: #ff9800;
+  --error-color: #f44336;
+  --error-bg: rgba(244, 67, 54, 0.1);
+  --tooltip-background: rgba(0, 0, 0, 0.8);
+  --tooltip-text: #ffffff;
+  --background-color: #ffffff;
+  --border-color: #dee2e6;
+  --primary-color: #4299e1;
+  --primary-color-transparent: rgba(66, 153, 225, 0.5);
+  --ai-button-bg: #6b46c1;
+  --ai-button-hover-bg: #553c9a;
+  --ai-explanation-bg: rgba(107, 70, 193, 0.1);
+  --ai-heading-color: #553c9a;
+  --ai-emphasis-color: #4a5568;
+}
+
+.dark-theme {
+  --bg-color: #1a1d24;
+  --text-color: #f5f6fa;
+  --nav-bg: #20242d;
+  --nav-text: #f5f6fa;
+  --card-bg: #242832;
+  --container-bg: #1e2229;
+  --button-bg: #487eb0;
+  --button-text: #f5f6fa;
+  --input-bg: var(--bg-color);
+  --input-text: #f5f6fa;
+  --input-border: #487eb0;
+  --bg-secondary: #242832;
+  --bg-tertiary: #2d3440;
+  --bg-hover: #2f3542;
+  --text-primary: #f5f6fa;
+  --text-secondary: #dcdde1;
+  --warning-text: #fbbf24;
+  --success-text: #34d399;
+  --button-primary: #4299e1;
+  --button-primary-hover: #3182ce;
+  --primary-hover: #3182ce;
+  --button-secondary: #353b48;
+  --button-secondary-hover: #2d3440;
+  --button-danger: #e53e3e;
+  --button-danger-hover: #c53030;
+  --button-action: #48bb78;
+  --button-action-hover: #38a169;
+  --button-disabled: #353b48;
+  --deck-nav-bg: #20242d;
+  --deck-nav-button: #487eb0;
+  --deck-nav-button-hover: #3182ce;
+  --search-bg: #242832;
+  --card-border: #353b48;
+  --tooltip-background: rgba(255, 255, 255, 0.9);
+  --tooltip-text: #000000;
+  --background-color: #242832;
+  --border-color: #353b48;
+  --primary-color: #4299e1;
+  --primary-color-transparent: rgba(66, 153, 225, 0.5);
+  --error-bg: rgba(244, 67, 54, 0.1);
+  --ai-button-bg: #805ad5;
+  --ai-button-hover-bg: #6b46c1;
+  --ai-explanation-bg: rgba(128, 90, 213, 0.15);
+  --ai-heading-color: #b794f4;
+  --ai-emphasis-color: #e9d8fd;
+}
+
+/* Стили для select в светлой и темной теме */
+select {
+  background-color: var(--background-color);
+  color: var(--text-color);
+  border: 1px solid var(--border-color);
+  border-radius: 4px;
+  padding: 0.5rem;
+  cursor: pointer;
+  outline: none;
+}
+
+select:focus {
+  border-color: var(--primary-color);
+  box-shadow: 0 0 0 2px var(--primary-color-transparent);
+}
+
+/* Стили для option в темной теме */
+.dark-theme select option {
+  background-color: var(--background-color);
+  color: var(--text-color);
+}
+
+/* Стили для option в светлой теме */
+.light-theme select option {
+  background-color: var(--background-color);
+  color: var(--text-color);
+}
